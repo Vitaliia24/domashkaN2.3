@@ -1,9 +1,7 @@
 package ru.skypro;
 
 public interface ServiceWorks {
-    public void check(Bicycle bicycle);
 
-    public void check(Car car);
+    void service();
 
-    public void check(Truck truck);
 }
